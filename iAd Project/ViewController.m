@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <iAd/iAd.h>
 
 @interface ViewController ()
 
@@ -22,6 +23,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    
+    [super viewDidAppear:animated];
+    
+    ADBannerView *adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50,320,50)];
+    [self.view addSubview:adView];
 }
 
 @end

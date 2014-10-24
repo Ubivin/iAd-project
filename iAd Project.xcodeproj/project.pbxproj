@@ -14,6 +14,7 @@
 		0401BFF319F9CFF80078B58F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0401BFF219F9CFF80078B58F /* Images.xcassets */; };
 		0401BFF619F9CFF80078B58F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401BFF419F9CFF80078B58F /* LaunchScreen.xib */; };
 		0401C00219F9CFF80078B58F /* iAd_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401C00119F9CFF80078B58F /* iAd_ProjectTests.m */; };
+		0401C00C19F9D0920078B58F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0401C00B19F9D0920078B58F /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0401BFFB19F9CFF80078B58F /* iAd ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iAd ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0401C00019F9CFF80078B58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0401C00119F9CFF80078B58F /* iAd_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAd_ProjectTests.m; sourceTree = "<group>"; };
+		0401C00B19F9D0920078B58F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0401C00C19F9D0920078B58F /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		0401BFD919F9CFF80078B58F = {
 			isa = PBXGroup;
 			children = (
+				0401C00B19F9D0920078B58F /* iAd.framework */,
 				0401BFE419F9CFF80078B58F /* iAd Project */,
 				0401BFFE19F9CFF80078B58F /* iAd ProjectTests */,
 				0401BFE319F9CFF80078B58F /* Products */,
