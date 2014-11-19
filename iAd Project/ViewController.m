@@ -7,6 +7,7 @@
 //
 
 //still not fully functional, still needs to be reimplemented
+//Error somewhere
 
 #import "ViewController.h"
 
