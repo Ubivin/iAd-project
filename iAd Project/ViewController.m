@@ -7,7 +7,7 @@
 //
 
 //still not fully functional, still needs to be reimplemented
-//Error somewhere
+//Error fixed 
 
 #import "ViewController.h"
 
@@ -50,10 +50,10 @@
             [self.view addSubview:_adBanner];
             
         }
-        UIView
-    }
+       
+
     
     
-}
+    }}
 
 @end
